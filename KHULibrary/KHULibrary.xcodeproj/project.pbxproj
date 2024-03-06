@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5532CC042B98878C00A36216 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532CC032B98878C00A36216 /* LaunchScreenViewController.swift */; };
+		5532CC072B988B1100A36216 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5532CC062B988B1100A36216 /* SnapKit */; };
+		5532CC092B988B1100A36216 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 5532CC082B988B1100A36216 /* SnapKit-Dynamic */; };
+		5532CC0C2B988B7500A36216 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5532CC0B2B988B7500A36216 /* Alamofire */; };
+		5532CC0E2B988B7500A36216 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 5532CC0D2B988B7500A36216 /* AlamofireDynamic */; };
+		5532CC112B988B9600A36216 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 5532CC102B988B9600A36216 /* RxBlocking */; };
+		5532CC132B988B9600A36216 /* RxBlocking-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 5532CC122B988B9600A36216 /* RxBlocking-Dynamic */; };
+		5532CC152B988B9600A36216 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5532CC142B988B9600A36216 /* RxCocoa */; };
+		5532CC172B988B9600A36216 /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 5532CC162B988B9600A36216 /* RxCocoa-Dynamic */; };
+		5532CC192B988B9600A36216 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 5532CC182B988B9600A36216 /* RxRelay */; };
 		55BD43B42B96DF7100700653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BD43B32B96DF7100700653 /* AppDelegate.swift */; };
 		55BD43B62B96DF7100700653 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BD43B52B96DF7100700653 /* SceneDelegate.swift */; };
 		55BD43B82B96DF7100700653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BD43B72B96DF7100700653 /* ViewController.swift */; };
@@ -14,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5532CC032B98878C00A36216 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		55BD43B02B96DF7100700653 /* KHULibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHULibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BD43B32B96DF7100700653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55BD43B52B96DF7100700653 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +38,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5532CC192B988B9600A36216 /* RxRelay in Frameworks */,
+				5532CC172B988B9600A36216 /* RxCocoa-Dynamic in Frameworks */,
+				5532CC0C2B988B7500A36216 /* Alamofire in Frameworks */,
+				5532CC0E2B988B7500A36216 /* AlamofireDynamic in Frameworks */,
+				5532CC072B988B1100A36216 /* SnapKit in Frameworks */,
+				5532CC152B988B9600A36216 /* RxCocoa in Frameworks */,
+				5532CC132B988B9600A36216 /* RxBlocking-Dynamic in Frameworks */,
+				5532CC092B988B1100A36216 /* SnapKit-Dynamic in Frameworks */,
+				5532CC112B988B9600A36216 /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +74,7 @@
 			children = (
 				55BD43B32B96DF7100700653 /* AppDelegate.swift */,
 				55BD43B52B96DF7100700653 /* SceneDelegate.swift */,
+				5532CC032B98878C00A36216 /* LaunchScreenViewController.swift */,
 				55BD43B72B96DF7100700653 /* ViewController.swift */,
 				55BD43BC2B96DF7200700653 /* Assets.xcassets */,
 				55BD43C12B96DF7200700653 /* Info.plist */,
@@ -77,6 +98,17 @@
 			dependencies = (
 			);
 			name = KHULibrary;
+			packageProductDependencies = (
+				5532CC062B988B1100A36216 /* SnapKit */,
+				5532CC082B988B1100A36216 /* SnapKit-Dynamic */,
+				5532CC0B2B988B7500A36216 /* Alamofire */,
+				5532CC0D2B988B7500A36216 /* AlamofireDynamic */,
+				5532CC102B988B9600A36216 /* RxBlocking */,
+				5532CC122B988B9600A36216 /* RxBlocking-Dynamic */,
+				5532CC142B988B9600A36216 /* RxCocoa */,
+				5532CC162B988B9600A36216 /* RxCocoa-Dynamic */,
+				5532CC182B988B9600A36216 /* RxRelay */,
+			);
 			productName = KHULibrary;
 			productReference = 55BD43B02B96DF7100700653 /* KHULibrary.app */;
 			productType = "com.apple.product-type.application";
@@ -105,6 +137,11 @@
 				Base,
 			);
 			mainGroup = 55BD43A72B96DF7100700653;
+			packageReferences = (
+				5532CC052B988B1100A36216 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				5532CC0A2B988B7500A36216 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				5532CC0F2B988B9600A36216 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 55BD43B12B96DF7100700653 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,6 +169,7 @@
 			files = (
 				55BD43B82B96DF7100700653 /* ViewController.swift in Sources */,
 				55BD43B42B96DF7100700653 /* AppDelegate.swift in Sources */,
+				5532CC042B98878C00A36216 /* LaunchScreenViewController.swift in Sources */,
 				55BD43B62B96DF7100700653 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +307,6 @@
 				INFOPLIST_FILE = KHULibrary/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -296,7 +333,6 @@
 				INFOPLIST_FILE = KHULibrary/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,6 +370,81 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5532CC052B988B1100A36216 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		5532CC0A2B988B7500A36216 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+		5532CC0F2B988B9600A36216 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5532CC062B988B1100A36216 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5532CC052B988B1100A36216 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		5532CC082B988B1100A36216 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5532CC052B988B1100A36216 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		5532CC0B2B988B7500A36216 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5532CC0A2B988B7500A36216 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5532CC0D2B988B7500A36216 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5532CC0A2B988B7500A36216 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		5532CC102B988B9600A36216 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5532CC0F2B988B9600A36216 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		5532CC122B988B9600A36216 /* RxBlocking-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5532CC0F2B988B9600A36216 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxBlocking-Dynamic";
+		};
+		5532CC142B988B9600A36216 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5532CC0F2B988B9600A36216 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		5532CC162B988B9600A36216 /* RxCocoa-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5532CC0F2B988B9600A36216 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxCocoa-Dynamic";
+		};
+		5532CC182B988B9600A36216 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5532CC0F2B988B9600A36216 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 55BD43A82B96DF7100700653 /* Project object */;
 }
