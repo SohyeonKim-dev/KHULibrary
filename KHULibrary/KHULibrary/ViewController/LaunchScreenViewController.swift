@@ -19,11 +19,11 @@ class LaunchScreenViewController: UIViewController {
         
         [mainLabel, subLabel, logoImage].forEach { view.addSubview($0) }
         
-        configureLabelLayout()
+        setupLabelLayout()
         configureLayout()
     }
     
-    private func configureLabelLayout() {
+    private func setupLabelLayout() {
         mainLabel.text = "KHU LIB"
         mainLabel.textColor = UIColor(hexCode: "223058")
         
