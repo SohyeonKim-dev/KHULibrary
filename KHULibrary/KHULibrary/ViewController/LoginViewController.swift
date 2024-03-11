@@ -64,6 +64,13 @@ class LoginViewController: UIViewController {
                                       titleColor: .white,
                                       backgroundColor: UIColor.KHURed,
                                       radius: 15)
+        
+        loginButton.addTarget(self, action: #selector(loginButtonButtonTapped), for: .touchUpInside)
+    }
+    
+    @objc func loginButtonButtonTapped() {
+        // TODO: UserDefualts에 값 저장 
+        self.navigationController?.pushViewController(RootViewController(), animated: true)
     }
     
     private func configureLayout() {
