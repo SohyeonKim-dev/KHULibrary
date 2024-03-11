@@ -21,6 +21,8 @@
 		5532CC1F2B9895C700A36216 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532CC1E2B9895C700A36216 /* LoginViewController.swift */; };
 		5532CC212B98960400A36216 /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532CC202B98960400A36216 /* TextField+Extension.swift */; };
 		559746BD2B9EC610006BBCB3 /* Button+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559746BC2B9EC610006BBCB3 /* Button+Extension.swift */; };
+		559746BF2B9ECB55006BBCB3 /* PassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559746BE2B9ECB55006BBCB3 /* PassViewController.swift */; };
+		559746C12B9ECB6A006BBCB3 /* ReserveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559746C02B9ECB6A006BBCB3 /* ReserveViewController.swift */; };
 		55BD43B42B96DF7100700653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BD43B32B96DF7100700653 /* AppDelegate.swift */; };
 		55BD43B62B96DF7100700653 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BD43B52B96DF7100700653 /* SceneDelegate.swift */; };
 		55BD43B82B96DF7100700653 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BD43B72B96DF7100700653 /* RootViewController.swift */; };
@@ -33,6 +35,8 @@
 		5532CC1E2B9895C700A36216 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5532CC202B98960400A36216 /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
 		559746BC2B9EC610006BBCB3 /* Button+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Extension.swift"; sourceTree = "<group>"; };
+		559746BE2B9ECB55006BBCB3 /* PassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassViewController.swift; sourceTree = "<group>"; };
+		559746C02B9ECB6A006BBCB3 /* ReserveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveViewController.swift; sourceTree = "<group>"; };
 		55BD43B02B96DF7100700653 /* KHULibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHULibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BD43B32B96DF7100700653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55BD43B52B96DF7100700653 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 				5532CC032B98878C00A36216 /* LaunchScreenViewController.swift */,
 				5532CC1E2B9895C700A36216 /* LoginViewController.swift */,
 				55BD43B72B96DF7100700653 /* RootViewController.swift */,
+				559746BE2B9ECB55006BBCB3 /* PassViewController.swift */,
+				559746C02B9ECB6A006BBCB3 /* ReserveViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -200,7 +206,9 @@
 				5532CC1C2B988FD800A36216 /* Color+Extension.swift in Sources */,
 				55BD43B42B96DF7100700653 /* AppDelegate.swift in Sources */,
 				5532CC212B98960400A36216 /* TextField+Extension.swift in Sources */,
+				559746C12B9ECB6A006BBCB3 /* ReserveViewController.swift in Sources */,
 				559746BD2B9EC610006BBCB3 /* Button+Extension.swift in Sources */,
+				559746BF2B9ECB55006BBCB3 /* PassViewController.swift in Sources */,
 				5532CC042B98878C00A36216 /* LaunchScreenViewController.swift in Sources */,
 				55BD43B62B96DF7100700653 /* SceneDelegate.swift in Sources */,
 			);
