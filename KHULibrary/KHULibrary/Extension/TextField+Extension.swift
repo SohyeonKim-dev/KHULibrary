@@ -14,6 +14,7 @@ extension UITextField {
                                   y: self.bounds.height + 3,
                                   width: self.bounds.width,
                                   height: 1.5)
+        
         bottomLine.backgroundColor = lineColor.cgColor
         self.borderStyle = UITextField.BorderStyle.none
         self.layer.addSublayer(bottomLine)

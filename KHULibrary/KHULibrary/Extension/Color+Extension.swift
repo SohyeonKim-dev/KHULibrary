@@ -9,7 +9,7 @@ import UIKit.UIColor
 
 extension UIColor {
     static var KHURed: UIColor {
-        return UIColor(hexCode: "902926")
+        return UIColor(hexCode: "B22F2B")
     }
     
     static var KHUBlue: UIColor {
@@ -18,6 +18,10 @@ extension UIColor {
     
     static var KHUGold: UIColor {
         return UIColor(hexCode: "B6985A")
+    }
+    
+    static var TEXTGray: UIColor {
+        return UIColor(hexCode: "3C3C43").withAlphaComponent(0.5)
     }
 }
 
