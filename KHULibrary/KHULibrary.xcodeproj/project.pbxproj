@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		552755672BA5768400A66615 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 552755662BA5768400A66615 /* SwiftSoup */; };
 		5532CC042B98878C00A36216 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532CC032B98878C00A36216 /* LaunchScreenViewController.swift */; };
 		5532CC072B988B1100A36216 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5532CC062B988B1100A36216 /* SnapKit */; };
 		5532CC092B988B1100A36216 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 5532CC082B988B1100A36216 /* SnapKit-Dynamic */; };
@@ -59,6 +60,7 @@
 				5532CC132B988B9600A36216 /* RxBlocking-Dynamic in Frameworks */,
 				5532CC092B988B1100A36216 /* SnapKit-Dynamic in Frameworks */,
 				5532CC112B988B9600A36216 /* RxBlocking in Frameworks */,
+				552755672BA5768400A66615 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +144,7 @@
 				5532CC142B988B9600A36216 /* RxCocoa */,
 				5532CC162B988B9600A36216 /* RxCocoa-Dynamic */,
 				5532CC182B988B9600A36216 /* RxRelay */,
+				552755662BA5768400A66615 /* SwiftSoup */,
 			);
 			productName = KHULibrary;
 			productReference = 55BD43B02B96DF7100700653 /* KHULibrary.app */;
@@ -175,6 +178,7 @@
 				5532CC052B988B1100A36216 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				5532CC0A2B988B7500A36216 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				5532CC0F2B988B9600A36216 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				552755652BA5768400A66615 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
 			);
 			productRefGroup = 55BD43B12B96DF7100700653 /* Products */;
 			projectDirPath = "";
@@ -412,6 +416,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		552755652BA5768400A66615 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.1;
+			};
+		};
 		5532CC052B988B1100A36216 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -439,6 +451,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		552755662BA5768400A66615 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 552755652BA5768400A66615 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
 		5532CC062B988B1100A36216 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5532CC052B988B1100A36216 /* XCRemoteSwiftPackageReference "SnapKit" */;
