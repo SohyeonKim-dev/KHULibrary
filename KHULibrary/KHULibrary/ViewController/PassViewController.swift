@@ -7,12 +7,12 @@
 
 import UIKit
 import SnapKit
+import SwiftSoup
 
 class PassViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
     }
-    
 }
